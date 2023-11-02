@@ -1,13 +1,166 @@
-body {
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-bg: #080706;
+  --color-bg-variant: #282828;
+  --color-primary: #d60000;
+  --color-primary-variant: rgb(201 165 36 / 40%);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.74);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  margin: auto;
+}
+
+/* ============== GENEARL STYLES ============== */
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: var(--color-white);
+}
+
+h2 {
+  padding: 0.5em 0;
+  text-align: center;
+  font-size: 2.8rem;
+  color: #e3e3e3;
+}
+
+h2:before,
+h2:after {
+  content: '';
+  width: 3em;
+  border-bottom: 1px solid #d60000;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h2:before {
+  margin-left: -100%;
+  margin-right: 3em
+}
+
+h2:after {
+  margin-right: -100%;
+  margin-left: 3em;
+}
+
+
+h4 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+.text-light {
+  color: var(--color-light);
+  font-weight: 400;
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+img.anna {
+  display: block;
+  width: auto;
+  height: 14.5rem;
+  object-fit: cover;
+
+}
+
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 3rem;
+  }
+
+  nav {
+    display: flex;
+    top: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  .experience__container {
+    padding: 20px;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  nav {
+    background: rgb(51 51 51 / 70%);
+  }
+
+  section>h2 {
+    margin-bottom: 2rem;
+  }
+
 }

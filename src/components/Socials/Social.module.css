@@ -1,0 +1,21 @@
+.headerSocials {
+    display: flex;
+    gap: 1.5rem;
+    z-index: 1;
+    left: 2%;
+    top: 15%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+
+    .headerSocials {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

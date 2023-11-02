@@ -1,0 +1,28 @@
+.scroll-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #d60000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-button.visible {
+    display: block;
+    
+  }
+  
+  /* Style supplémentaire pour la flèche */
+  .scroll-button::before {
+    content: "\2191"; /* Code Unicode pour la flèche vers le haut */
+    font-size: 20px;
+    display: block;
+  }
+  
