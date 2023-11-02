@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kasa/static/css/main.775fdd65.css",
+    "main.js": "/kasa/static/js/main.3e6a1ba5.js",
+    "static/media/black-cubes-26201.jpeg": "/kasa/static/media/black-cubes-26201.176ef9a00d5b9cba2d32.jpeg",
+    "index.html": "/kasa/index.html",
+    "main.775fdd65.css.map": "/kasa/static/css/main.775fdd65.css.map",
+    "main.3e6a1ba5.js.map": "/kasa/static/js/main.3e6a1ba5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.775fdd65.css",
+    "static/js/main.3e6a1ba5.js"
+  ]
+}
