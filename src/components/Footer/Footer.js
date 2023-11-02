@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 const Footer = () => {
   return (
     <footer>
-      <a href="https://cds-annabelle.github.io/portfolio-anna/">
+      <a href="https://boca75.github.io/portfolio/">
         Arthur - Intégrateur / Développeur Web
       </a>
 

@@ -1,46 +1,36 @@
 [
   {
     "id": 1,
-    "image": "https://creation-de-site.eu/portfolio5.jpg",
+    "image": "img/portfolio5.jpg",
     "title": "Kasa : projet React ",
-    "github": "https://github.com/CDS-Annabelle/kasa",
-    "demo": "https://cds-annabelle.github.io/kasa/",
+    "github": "https://github.com/Boca75/kasa",
+    "demo": "#",
     "text": "Kasa, agence immobilière, est un projet développé avec React. Cette application a permis de comprendre la structure de React avec ses composants ainsi que les routes."
   },
   {
     "id": 2,
-    "image": "https://creation-de-site.eu/portfolio6.jpg",
+    "image": "img/portfolio6.jpg",
     "title": "Sophie bluel : projet Javascript  ",
-    "github": "https://github.com/CDS-Annabelle/portfolio-architecte",
+    "github": "#",
+    "demo": "#",
     "text": "Sophie Bluel est un projet en Javascript. Cette application a mis en avant la manipulation des éléments du DOM, les évènements ainsi que les appels à l'API avec fetch."
   },
   {
     "id": 3,
-    "image": "https://creation-de-site.eu/ohmyfood.jpg",
+    "image": "img/ohmyfood.jpg",
     "title": "Ohmyfood : projet HTML / SASS  ",
-    "github": "https://github.com/CDS-Annabelle/ohmyfood",
-    "demo": "https://cds-annabelle.github.io/ohmyfood/",
+    "github": "#",
+    "demo": "#",
     "text": "Ohmyfood est un projet en HTML / CSS. Cette application a mis en avant l'intégration en mobile first et la mise en oeuvre des animations CSS avec SASS."
   },
+
   {
     "id": 4,
-    "image": "https://creation-de-site.eu/cds.jpg",
-    "title": "CDS, le blog du développeur: site perso  ",
-    "demo": "https://creation-de-site.eu/les-conditions-en-php-if/",
-    "text": "CDS création de site, est un site perso que j'ai réalisé en 2020 avec Wordpress. De nombreux tutos, alliant théorie et pratique, sont présent pour les intégrateurs et développeur web."
-  },
-  {
-    "id": 5,
     "image": "https://creation-de-site.eu/argentbank.jpg",
     "title": "ArgentBank : projet React",
-    "github": "https://github.com/CDS-Annabelle/ArgentBank",
+    "github": "#",
+    "demo": "#",
     "text": "ArgentBank est un projet développé avec React et Redux-Toolkit. Il s'agissait ici d'implémenter le Frontend d'une application bancaire. Un modèle d'API Swagger a également été créé afin de spécifier les endpoints nécessaires pour l'évolution de cette application."
-  },
-  {
-    "id": 6,
-    "image": "https://creation-de-site.eu/quintepool.jpg",
-    "title": "Quinte-Pool : site perso  ",
-    "demo": "https://quinte-pool.fr/",
-    "text": "Quinte-Pool, site d'analyse de courses de plat est un site perso que j'ai réalisé en 2014. En PHP et Sql dans un premier temps, puis sous Wordpress."
   }
+
 ]

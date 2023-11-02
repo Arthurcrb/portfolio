@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: #fff;
     font-size: 1.4rem;
 }
 
@@ -44,7 +44,7 @@ footer a {
 
 .footerCopyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: #fff;
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */

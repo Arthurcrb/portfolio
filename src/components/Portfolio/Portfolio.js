@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import data from '../../assets/data.json'
-import clients from '../../assets/clients.json'
 import styles from './Portfolio.module.css'
 
 const Portfolio = () => {
@@ -35,9 +34,9 @@ const Portfolio = () => {
               }
               onClick={() => handleTabClick(0)}
             >
-              Projets Perso
+              Projets Front-end
             </button>
-            <button
+            {/* <button
               role="tab"
               aria-controls="panel-2"
               id="tab-2"
@@ -52,7 +51,7 @@ const Portfolio = () => {
               onClick={() => handleTabClick(1)}
             >
               Projets Clients
-            </button>
+            </button> */}
           </div>
 
           <div
@@ -114,33 +113,7 @@ const Portfolio = () => {
                 : styles.tabContent
             }
           >
-            <div className={styles.portfolioContainer}>
-              {clients.map(({ id, image, title, demo, text }) => {
-                return (
-                  <article key={id} className={styles.portfolioItem}>
-                    <div className={styles.card1}>
-                      <div className={styles.portfolioItemImage}>
-                        <img src={image} alt={title} />
-                      </div>
-                      <h3>{title}</h3>
-                      <div className={styles.portfolioItemCta}>
-                        <a
-                          href={demo}
-                          className={styles.btnPrimary}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Live Demo
-                        </a>
-                      </div>
-                    </div>
-                    <div className={styles.card2}>
-                      <p>{text}</p>
-                    </div>
-                  </article>
-                )
-              })}
-            </div>
+            
           </div>
         </div>
       </div>
