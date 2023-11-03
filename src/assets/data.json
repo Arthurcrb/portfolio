@@ -31,7 +31,7 @@
     "image": "img/argentbank.jpg",
     "title": "ArgentBank : projet React",
     "github": "https://github.com/Boca75/argentbank",
-    "hasDemo": true,
+    "hasDemo": false,
     "text": "ArgentBank est un projet développé avec React et Redux-Toolkit. Il s'agissait ici d'implémenter le Frontend d'une application bancaire. Un modèle d'API Swagger a également été créé afin de spécifier les endpoints nécessaires pour l'évolution de cette application."
   }
 
