@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
-import data from '../../assets/data.json'
-import styles from './Portfolio.module.css'
+import React, { useState } from 'react';
+import data from '../../assets/data.json';
+import styles from './Portfolio.module.css';
 
 const Portfolio = () => {
-  const [activeTab, setActiveTab] = useState(0)
+  const [activeTab, setActiveTab] = useState(0);
 
   const handleTabClick = (index) => {
-    setActiveTab(index)
-  }
+    setActiveTab(index);
+  };
 
   return (
     <section id="portfolio">
@@ -36,22 +36,6 @@ const Portfolio = () => {
             >
               Projets Front-end
             </button>
-            {/* <button
-              role="tab"
-              aria-controls="panel-2"
-              id="tab-2"
-              type="button"
-              aria-selected={activeTab === 1 ? 'true' : 'false'}
-              tabIndex={activeTab === 1 ? '0' : '-1'}
-              className={
-                activeTab === 1
-                  ? `${styles.tab} ${styles.activeTab}`
-                  : styles.tab
-              }
-              onClick={() => handleTabClick(1)}
-            >
-              Projets Clients
-            </button> */}
           </div>
 
           <div
@@ -66,7 +50,7 @@ const Portfolio = () => {
             }
           >
             <div className={styles.portfolioContainer}>
-              {data.map(({ id, image, title, github, demo, text }) => {
+              {data.map(({ id, image, title, github, demo, text, hasDemo }) => {
                 return (
                   <article key={id} className={styles.portfolioItem}>
                     <div className={styles.card1}>
@@ -83,42 +67,30 @@ const Portfolio = () => {
                         >
                           Github
                         </a>
-                        <a
-                          href={demo}
-                          className={styles.btnPrimary}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Live Demo
-                        </a>
+                        {hasDemo && (
+                          <a
+                            href={demo}
+                            className={styles.btnPrimary}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Live Demo
+                          </a>
+                        )}
                       </div>
                     </div>
                     <div className={styles.card2}>
                       <p>{text}</p>
                     </div>
                   </article>
-                )
+                );
               })}
             </div>
-          </div>
-
-          <div
-            id="panel-2"
-            role="tabpanel"
-            tabIndex="0"
-            aria-labelledby="tab-2"
-            className={
-              activeTab === 1
-                ? `${styles.tabContent} ${styles.activeTabContent}`
-                : styles.tabContent
-            }
-          >
-            
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
