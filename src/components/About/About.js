@@ -4,7 +4,7 @@ import picture from "../../assets/img/photo-identite-arthur-carbonnier-35-45.jpg
 
 const About = () => {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id="about">
             <img
               srcSet={picture}
               alt="Arthur"

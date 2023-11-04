@@ -163,7 +163,7 @@ h1.titlePortfolio{
 @media screen and (max-width: 600px) {
 
   .box {
-    top: 100%;
+    top: 60%;
     height: 260px;
     position: relative;
   }
