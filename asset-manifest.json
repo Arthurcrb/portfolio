@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.51c8b543.css",
-    "main.js": "/portfolio/static/js/main.42e1279b.js",
+    "main.css": "/portfolio/static/css/main.eddfd270.css",
+    "main.js": "/portfolio/static/js/main.90cf2f78.js",
     "static/media/black-cubes-26201.jpeg": "/portfolio/static/media/black-cubes-26201.176ef9a00d5b9cba2d32.jpeg",
+    "static/media/photo-identite-arthur-carbonnier-35-45.jpg": "/portfolio/static/media/photo-identite-arthur-carbonnier-35-45.4221f3230f26f9a28a1a.jpg",
     "index.html": "/portfolio/index.html",
-    "main.51c8b543.css.map": "/portfolio/static/css/main.51c8b543.css.map",
-    "main.42e1279b.js.map": "/portfolio/static/js/main.42e1279b.js.map"
+    "main.eddfd270.css.map": "/portfolio/static/css/main.eddfd270.css.map",
+    "main.90cf2f78.js.map": "/portfolio/static/js/main.90cf2f78.js.map"
   },
   "entrypoints": [
-    "static/css/main.51c8b543.css",
-    "static/js/main.42e1279b.js"
+    "static/css/main.eddfd270.css",
+    "static/js/main.90cf2f78.js"
   ]
 }
